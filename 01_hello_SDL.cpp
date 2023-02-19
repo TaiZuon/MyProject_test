@@ -255,7 +255,8 @@ int main( int argc, char* args[])
         //Update the surface
         SDL_UpdateWindowSurface( gWindow );
     }
-    waitUntilKeyPressed();
+	waitUntilKeyPressed();
+	SDL_Delay(5000);
 	//Free resources and close SDL
 	close();
 	return 0;
